@@ -9,5 +9,7 @@
 namespace Ratchet;
 include '../Ratchet/App.php';
 
-$ratchet = new App( "localhost", 8080, "192.168.80.129", true);
+$ratchet = new App( "localhost", 8080, "192.168.80.129", NULL);
 $ratchet->run();
+
+?>
